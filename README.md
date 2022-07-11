@@ -1,42 +1,5 @@
 # Desafio Back-end
 
-Primeiramente, obrigado pelo seu interesse em trabalhar na melhor plataforma de pagamentos do mundo!
-Abaixo você encontrará todos as informações necessárias para iniciar o seu teste.
-
-## Avisos antes de começar
-- Faça seus commits no seu repositório.
-- Envie o link do seu repositório para o email **do recrutador responsável**.
-- Você poderá consultar o Google, Stackoverflow ou algum projeto particular na sua máquina.
-- Dê uma olhada nos [Materiais úteis](#materiais-úteis).
-- Dê uma olhada em como será a [entrevista](#para-o-dia-da-entrevista-técnica).
-- Fique à vontade para perguntar qualquer dúvida aos recrutadores.
-- Fique tranquilo, respire, assim como você, também já passamos por essa etapa. Boa sorte! :)
-
-*Corpo do Email com o link do repositório do desafio*
-
->Seu Nome
->
->Nome do recrutador
->
->Link do repositório
->
->Link do Linkedin
-
-### Sobre o ambiente da aplicação:
-
-- Escolha qualquer framework que se sinta **confortável** em trabalhar. Esse teste **não faz** nenhuma preferência, portanto decida por aquele com o qual estará mais seguro em apresentar e conversar com a gente na entrevista ;)
-
-- Você pode, inclusive, não optar por framework nenhum. Neste caso, recomendamos a implementação do serviço via script para diminuir a sobrecarga de criar um servidor web.
-
-- Ainda assim, se optar por um framework tente evitar usar muito métodos mágicos ou atalhos já prontos. Sabemos que essas facilidades aumentam a produtividade no dia-a-dia mas aqui queremos ver o **seu** código e a sua forma de resolver problemas.
-
-- Valorizamos uma boa estrutura de containeres criada por você.
-
-## Para o dia da entrevista técnica
-
-Na data marcada pelo recrutador tenha sua aplicação rodando na sua máquina local para execução dos testes e para nos mostrar os pontos desenvolvidos e possíveis questionamentos.
-Faremos um code review junto contigo como se você já fosse do nosso time :heart:, você poderá explicar o que você pensou, como arquitetou e como pode evoluir o projeto.
-
 ## Objetivo: Serviços bancários Simplificados
 
 Temos 2 tipos de usuários, os comuns e lojistas, ambos têm carteira com dinheiro e realizam transferências entre eles. Vamos nos atentar **somente** ao fluxo de transferência entre dois usuários.
@@ -72,44 +35,3 @@ POST /transaction
     "payee" : 15
 }
 ```
-
-## O que será avaliado e valorizamos :heart:
-- Documentação
-- Se for para vaga sênior, foque bastante no **desenho de arquitetura**
-- Código limpo e organizado (nomenclatura, etc)
-- Conhecimento de padrões (PSRs, design patterns, SOLID)
-- Ser consistente e saber argumentar suas escolhas
-- Apresentar soluções que domina
-- Modelagem de Dados
-- Manutenibilidade do Código
-- Tratamento de erros
-- Cuidado com itens de segurança
-- Arquitetura (estruturar o pensamento antes de escrever)
-- Carinho em desacoplar componentes (outras camadas, service, repository)
-
-De acordo com os critérios acima, iremos avaliar seu teste para avançarmos para a entrevista técnica.
-Caso não tenha atingido aceitavelmente o que estamos propondo acima, não iremos prosseguir com o processo.
-
-## O que NÃO será avaliado :warning:
-- Fluxo de cadastro de usuários e lojistas
-- Frontend (só avaliaremos a (API Restful)[https://www.devmedia.com.br/rest-tutorial/28912])
-- Autenticação
-
-## O que será um Diferencial
-- Uso de Docker
-- Testes de [integração](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
-- Testes [unitários](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
-- Uso de Design Patterns
-- Documentação
-- Proposta de melhoria na arquitetura
-
-## Materiais úteis
-- https://hub.packtpub.com/why-we-need-design-patterns/
-- https://refactoring.guru/
-- http://br.phptherightway.com/
-- https://www.php-fig.org/psr/psr-12/
-- https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing
-- https://github.com/exakat/php-static-analysis-tools
-- https://martinfowler.com/articles/microservices.htm
-- https://docs.guzzlephp.org/en/stable/request-options.html
-- https://www.devmedia.com.br/rest-tutorial/28912
